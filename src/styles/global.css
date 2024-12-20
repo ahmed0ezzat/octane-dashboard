@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+th {
+  background-color: #007bff;
+  /* color: #eee; */
+  font-weight: bold;
+}
+
+th, td:hover {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-right: 5px;
+  padding: 7px 11px;
+  border: none;
+  background-color: #126dcf;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545; /* Red for delete */
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+button.update, button.active {
+  background-color: #28a745; /* Green for update */
+}
+
+button.update:hover, button.active:hover {
+  background-color: #218838;
+}
